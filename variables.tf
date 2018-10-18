@@ -15,34 +15,34 @@ variable "allow_unverified_ssl" {
 
 variable "vsphere_datacenter" {
   description = "Name of the vsphere datacenter to deploy to"
-  default     = "___INSERT_YOUR_OWN____"
+  default     = "CSPLAB"
 }
 
 variable "vsphere_cluster" {
   description = "Name of vsphere cluster to deploy to"
-  default     = "___INSERT_YOUR_OWN____"
+  default     = "CASE"
 }
 
 variable "vsphere_resource_pool" {
   description = "Path of resource pool to deploy to. i.e. /path/to/pool"
-  default     = "/"
+  default     = "Rainbow"
 }
 
 variable "network_label" {
   description = "Name or label of network to provision VMs on. All VMs will be provisioned on the same network"
-  default     = "___INSERT_YOUR_OWN____"
+  default     = "csplab"
 }
 
 variable "datastore" {
   description = "Name of datastore to use for the VMs"
-  default     = ""
+  default     = "CASE2_2"
 }
 
 ## Note
 # Because of https://github.com/terraform-providers/terraform-provider-vsphere/issues/271 templates must be converted to VMs on ESX 5.5 (and possibly other)
 variable "template" {
   description = "Name of template or VM to clone for the VM creations. Tested on Ubuntu 16.04 LTS"
-  default     = "___INSERT_YOUR_OWN____"
+  default     = "icp-31-base-vm"
 }
 
 variable "folder" {
