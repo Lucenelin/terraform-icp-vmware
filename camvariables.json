@@ -1,16 +1,5 @@
 [
   {
-    "name": "vsphere_server",
-    "label": "vsphere_server_address",
-    "description": "VMWare vsphere Server IP address",
-    "default": "",
-    "hidden": false,
-    "immutable": false,
-    "required": true,
-    "secured": false,
-    "type": "string"
-  },
-  {
     "name": "vsphere_datacenter",
     "label": "vSphere DataCenter",
     "description": "For example CSPLAB",
