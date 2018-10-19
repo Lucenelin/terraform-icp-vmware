@@ -263,7 +263,7 @@ variable "icppassword" {
 
 variable "ssh_user" {
   description = "Username which terraform will use to connect to newly created VMs during provisioning"
-  default     = "root"
+  default     = "virtuser"
 }
 
 variable "ssh_password" {
