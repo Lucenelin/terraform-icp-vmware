@@ -1,6 +1,10 @@
 ####################################
 #### vSphere Access Credentials ####
 ####################################
+variable "vsphere_server" {
+  description = "vsphere server to connect to"
+  default     = "10.1.212.26"
+}
 
 # Set username/password as environment variables VSPHERE_USER and VSPHERE_PASSWORD
 
