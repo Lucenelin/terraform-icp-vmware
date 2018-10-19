@@ -162,7 +162,7 @@
     "name": "ssh_password",
     "label": "VM user password to install ICP",
     "description": "Password which terraform will use to connect to newly created VMs during provisioning",
-    "default": "virtuser",
+    "default": "Passw0rd!",
     "hidden": false,
     "immutable": false,
     "required": true,
