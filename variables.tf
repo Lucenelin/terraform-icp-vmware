@@ -268,7 +268,7 @@ variable "ssh_user" {
 
 variable "ssh_password" {
   description = "Password which terraform will use to connect to newly created VMs during provisioning"
-  default     = ""
+  default     = "virtuser"
 }
 
 variable "ssh_keyfile" {
