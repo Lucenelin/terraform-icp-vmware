@@ -69,7 +69,7 @@
     "name": "instance_name",
     "label": "ICP instance name and prefix",
     "description": "Prefix of names for AWS ICP cluster resources; The name prefix must be 1-52 alphanumeric characters and dash",
-    "default": "se-prod-31",
+    "default": "se-prod-31-lzhiyi",
     "hidden": false,
     "immutable": false,
     "required": true,
